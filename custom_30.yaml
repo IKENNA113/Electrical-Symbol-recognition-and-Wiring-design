@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/yolov7/Dataset3FullAug/train/images/ # 118287 images
+val: /content/yolov7/Dataset3FullAug/valid/images/ # 5000 images
+test: /content/yolov7/Dataset3FullAug/test/images/  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 30
+
+# class names
+names: ['DUPLEX RECEPTACLE', 'LIGHT FIXTURE RECESSED', 'LIGHT FIXTURE SURFACE', 'TELEVISION OUTLET', 'SINGLE POLE SWITCH', 'TELEPHONE OUTLET', 'THIN LIGHT FIXTURE', 'JUNCTION BOX', 'EMERGENCY NIGHT LIGHT', 'CYLINDER LIGHT FIXTURE', 'QUAD RECEPTACLE', 'EXIT SIGN', 'NON-FUSED DISCONNECT SWITCH', 'EMERGENCY BATTERY PACK', 'PANELBOARD', 'OS', 'FIRE ALARM SYSTEM STROBE INSTALLED/WALL MOUNTED', 'led type 1', 'FIXTURE TYPE 7', '1X4 STRIP LIGHT FIXTURE', 'MOTOR', 'SPECIAL RRECEPTACLE', 'SQUARE APERTURE DOWNLIGHT', 'SINGLE POLE KEYED SWITCH', 'FIRE ALARM SYSTEM- CELING SMOKE DETECTOR', 'DOUBLE DUPLEX RECEPTACLE', 'FIRE ALARM SYSTEM- PULL STATON INSTALLED', 'EXIT SIGN 3', 'FLUSH IN CEILING MOUNTED SPEAKER WITH BACKBOX', 'SURFACE SPEAKER']
